@@ -14,10 +14,10 @@ Welcome to your new app.
         // PROBLEM IS HERE
         // if you start typing MyObjects, no suggestion of it comes up, but if you type the full thing, it recognizes it and works
         // my issue is that there are no suggestions while typing
-        var _ = MyObjects.something;
+        var _ = CoreProject.GeneratorOutput.MyObjects.something;
 
         // if you start typing CoreClass, it'll appear in the suggestions like normal (since this isn't generated code)
-        CoreClass.SomeFunction();
+        CoreProject.CoreClass.SomeFunction();
 
         // if you type "CoreProject.", a list of namespace suggestions appears, but it doesn't include the namespace created by the generator
     }
