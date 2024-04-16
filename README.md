@@ -1,1 +1,1 @@
-This is a minimal reproduction of the issue detailed here: https://stackoverflow.com/questions/78321911/intellisense-not-finding-generated-code-in-referenced-project?noredirect=1#comment138088262_78321911
+This is a minimal reproduction of the issue detailed here: https://stackoverflow.com/questions/78321911/intellisense-not-finding-generated-code-in-referenced-project
