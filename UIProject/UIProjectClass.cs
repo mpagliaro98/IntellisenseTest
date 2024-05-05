@@ -7,10 +7,8 @@ public static class UIProjectClass
 {
     public static void TestUI()
     {
-        // example doing the same test in a non-razor file, same issue happens
+        // example doing the same test in a non-razor file, start typing "MyObjects" and text completions work here
+        // they appear to only not work in the razor editor
         var _ = MyObjects.something;
-
-        // this shows up in typing suggestions just fine, but the above line does not
-        CoreClass.SomeFunction();
     }
 }
